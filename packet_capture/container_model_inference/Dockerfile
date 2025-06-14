@@ -3,7 +3,7 @@ FROM --platform=${TARGETPLATFORM:-linux/amd64} ghcr.io/openfaas/of-watchdog:0.9.
 
 # Use Debian-based Node.js image instead of Alpine
 #FROM --platform=${TARGETPLATFORM:-linux/amd64} node:18-slim as ship
-FROM rabbi29/base-container-image  as ship
+FROM base-container-image  as ship
 # Set build arguments
 ARG TARGETPLATFORM
 ARG BUILDPLATFORM
@@ -12,17 +12,7 @@ ARG BUILDPLATFORM
 COPY --from=watchdog /fwatchdog /usr/bin/fwatchdog
 RUN chmod +x /usr/bin/fwatchdog
 
-# Install necessary packages on Debian
-#RUN apt-get update && apt-get install -y --no-install-recommends \
-     #build-essential  g++ python3-dev\
-#     python3 python3-pip  python3-dev libjsoncpp-dev  \
-#    && rm -rf /var/lib/apt/lists/*
 
-# Create user and group
-#ENV OPENSSL_DIR=/usr/lib/ssl
-#RUN pip3 install torch==2.4.1+cpu --index-url https://download.pytorch.org/whl/cpu --break-system-packages
-#RUN pip3 install pybind11 tokenizers  onnxruntime --break-system-packages
-#RUN pip3 install 
 
 
 
@@ -94,10 +84,6 @@ WORKDIR /home/app/
 ENV cgi_headers="true"
 ENV fprocess="node index.js"
 ENV mode="http"
-ENV upstream_url="http://127.0.0.1:3000"
-ENV URL_GETPRICE="http://cci-narita.uncc.edu:29291/function/product-purchase-get-price"
-ENV URL_AUTHORIZECC="http://cci-narita.uncc.edu:29291/function/product-purchase-authorize-cc"
-ENV URL_PUBLISH="http://cci-narita.uncc.edu:29291/function/product-purchase-publish"
 
 ENV exec_timeout="10s"
 ENV write_timeout="15s"
@@ -118,4 +104,3 @@ HEALTHCHECK --interval=6s CMD [ -e /tmp/.lock ] || exit 1
 # Set the command to start fwatchdog
 CMD ["fwatchdog"]
 
-#CMD ["strace", "-f", "-ff", "-o", "/tmp/strace_logs/trace_log", "fwatchdog"]

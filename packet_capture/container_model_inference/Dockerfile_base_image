@@ -53,51 +53,9 @@ ENV PYTHONPATH="/usr/src/app"
 RUN chown root:root libmessage.so && \
     chmod 755 libmessage.so
 
-# Set environment variables for npm and permissions
-#ENV NPM_CONFIG_LOGLEVEL warn
-#RUN chmod 777 /tmp
-
-
-# Switch to non-root user
-#USER app
-
-# Set up function directory for app user
-#RUN mkdir -p /home/app/function
-
-# Entrypoint setup
-#WORKDIR /home/app
-
-#COPY --chown=app:app package.json ./
-
-
-
-
-
-# Install Node.js dependencies
-#RUN npm install
-
-# Copy main function handler
-#COPY --chown=app:app index.js ./
-
-# Set up function's dependencies separately for caching
-#WORKDIR /home/app/function
-#COPY --chown=app:app function/*.json ./
-#RUN npm install
-
-# Copy function files and folders
-#COPY --chown=app:app function/ ./
-
-# Set permissions and working directory
-#WORKDIR /home/app/
-
-# Environment variables for fwatchdog
 ENV cgi_headers="true"
 ENV fprocess="node index.js"
 ENV mode="http"
-ENV upstream_url="http://127.0.0.1:3000"
-ENV URL_GETPRICE="http://cci-narita.uncc.edu:29291/function/product-purchase-get-price"
-ENV URL_AUTHORIZECC="http://cci-narita.uncc.edu:29291/function/product-purchase-authorize-cc"
-ENV URL_PUBLISH="http://cci-narita.uncc.edu:29291/function/product-purchase-publish"
 
 ENV exec_timeout="10s"
 ENV write_timeout="15s"
