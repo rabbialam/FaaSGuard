@@ -1,0 +1,89 @@
+{
+  "kind": "NodeMetricsList",
+  "apiVersion": "metrics.k8s.io/v1beta1",
+  "metadata": {},
+  "items": [
+    {
+      "metadata": {
+        "name": "kb0",
+        "creationTimestamp": "2025-05-25T21:30:53Z",
+        "labels": {
+          "beta.kubernetes.io/arch": "amd64",
+          "beta.kubernetes.io/os": "linux",
+          "kubernetes.io/arch": "amd64",
+          "kubernetes.io/hostname": "kb0",
+          "kubernetes.io/os": "linux",
+          "node-role": "database",
+          "node-role.kubernetes.io/control-plane": "",
+          "node.kubernetes.io/exclude-from-external-load-balancers": ""
+        }
+      },
+      "timestamp": "2025-05-25T21:30:38Z",
+      "window": "20.101s",
+      "usage": {
+        "cpu": "3075866872n",
+        "memory": "5101072Ki"
+      }
+    },
+    {
+      "metadata": {
+        "name": "kb1",
+        "creationTimestamp": "2025-05-25T21:30:53Z",
+        "labels": {
+          "beta.kubernetes.io/arch": "amd64",
+          "beta.kubernetes.io/os": "linux",
+          "kubernetes.io/arch": "amd64",
+          "kubernetes.io/hostname": "kb1",
+          "kubernetes.io/os": "linux",
+          "node-role": "app"
+        }
+      },
+      "timestamp": "2025-05-25T21:30:33Z",
+      "window": "10.043s",
+      "usage": {
+        "cpu": "2365428656n",
+        "memory": "2750900Ki"
+      }
+    },
+    {
+      "metadata": {
+        "name": "kb2",
+        "creationTimestamp": "2025-05-25T21:30:53Z",
+        "labels": {
+          "beta.kubernetes.io/arch": "amd64",
+          "beta.kubernetes.io/os": "linux",
+          "kubernetes.io/arch": "amd64",
+          "kubernetes.io/hostname": "kb2",
+          "kubernetes.io/os": "linux",
+          "node-role": "app"
+        }
+      },
+      "timestamp": "2025-05-25T21:30:33Z",
+      "window": "10.039s",
+      "usage": {
+        "cpu": "3250522960n",
+        "memory": "3325520Ki"
+      }
+    },
+    {
+      "metadata": {
+        "name": "kb3",
+        "creationTimestamp": "2025-05-25T21:30:53Z",
+        "labels": {
+          "beta.kubernetes.io/arch": "amd64",
+          "beta.kubernetes.io/os": "linux",
+          "kubernetes.io/arch": "amd64",
+          "kubernetes.io/hostname": "kb3",
+          "kubernetes.io/os": "linux",
+          "node-role": "app"
+        }
+      },
+      "timestamp": "2025-05-25T21:30:42Z",
+      "window": "20.033s",
+      "usage": {
+        "cpu": "4999151400n",
+        "memory": "2793904Ki"
+      }
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "kind": "PodMetricsList",
+  "apiVersion": "metrics.k8s.io/v1beta1",
+  "metadata": {},
+  "items": [
+    {
+      "metadata": {
+        "name": "mysql-69c59fc7b-4zz8r",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "app": "mysql",
+          "pod-template-hash": "69c59fc7b"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:16Z",
+      "window": "14.336s",
+      "containers": [
+        {
+          "name": "mysql",
+          "usage": {
+            "cpu": "238800292n",
+            "memory": "489572Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-authenticate-68d8fcd9b6-8wjvn",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-authenticate",
+          "pod-template-hash": "68d8fcd9b6"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:22Z",
+      "window": "16.786s",
+      "containers": [
+        {
+          "name": "product-purchase-authenticate",
+          "usage": {
+            "cpu": "1095496n",
+            "memory": "57112Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-authorize-cc-5b9fdfbc55-8ntlm",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-authorize-cc",
+          "pod-template-hash": "5b9fdfbc55"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:27Z",
+      "window": "28.629s",
+      "containers": [
+        {
+          "name": "product-purchase-authorize-cc",
+          "usage": {
+            "cpu": "227392154n",
+            "memory": "112520Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-authorize-cc-5b9fdfbc55-9w2v6",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-authorize-cc",
+          "pod-template-hash": "5b9fdfbc55"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:23Z",
+      "window": "11.402s",
+      "containers": [
+        {
+          "name": "product-purchase-authorize-cc",
+          "usage": {
+            "cpu": "561894141n",
+            "memory": "111744Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-authorize-cc-5b9fdfbc55-f8t5k",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-authorize-cc",
+          "pod-template-hash": "5b9fdfbc55"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:22Z",
+      "window": "15.796s",
+      "containers": [
+        {
+          "name": "product-purchase-authorize-cc",
+          "usage": {
+            "cpu": "657898835n",
+            "memory": "115256Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-authorize-cc-5b9fdfbc55-ndhtd",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-authorize-cc",
+          "pod-template-hash": "5b9fdfbc55"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:16Z",
+      "window": "14.28s",
+      "containers": [
+        {
+          "name": "product-purchase-authorize-cc",
+          "usage": {
+            "cpu": "276951750n",
+            "memory": "114052Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-authorize-cc-5b9fdfbc55-wbnvh",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-authorize-cc",
+          "pod-template-hash": "5b9fdfbc55"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:18Z",
+      "window": "12.89s",
+      "containers": [
+        {
+          "name": "product-purchase-authorize-cc",
+          "usage": {
+            "cpu": "511481458n",
+            "memory": "114440Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-f667566f4-75mvc",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase",
+          "pod-template-hash": "f667566f4"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:15Z",
+      "window": "17.701s",
+      "containers": [
+        {
+          "name": "product-purchase",
+          "usage": {
+            "cpu": "794224224n",
+            "memory": "122776Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-f667566f4-k6mvp",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase",
+          "pod-template-hash": "f667566f4"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:20Z",
+      "window": "14.187s",
+      "containers": [
+        {
+          "name": "product-purchase",
+          "usage": {
+            "cpu": "384867131n",
+            "memory": "129984Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-f667566f4-lgv2v",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase",
+          "pod-template-hash": "f667566f4"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:28Z",
+      "window": "15.27s",
+      "containers": [
+        {
+          "name": "product-purchase",
+          "usage": {
+            "cpu": "505210019n",
+            "memory": "125792Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-f667566f4-nsfx2",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase",
+          "pod-template-hash": "f667566f4"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:23Z",
+      "window": "19.56s",
+      "containers": [
+        {
+          "name": "product-purchase",
+          "usage": {
+            "cpu": "319827965n",
+            "memory": "137368Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-f667566f4-zlhs9",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase",
+          "pod-template-hash": "f667566f4"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:15Z",
+      "window": "19.076s",
+      "containers": [
+        {
+          "name": "product-purchase",
+          "usage": {
+            "cpu": "503381369n",
+            "memory": "127072Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-get-price-6bbc499cc8-jjs4s",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-get-price",
+          "pod-template-hash": "6bbc499cc8"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:19Z",
+      "window": "16.29s",
+      "containers": [
+        {
+          "name": "product-purchase-get-price",
+          "usage": {
+            "cpu": "610970902n",
+            "memory": "115580Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-get-price-6bbc499cc8-mhtww",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-get-price",
+          "pod-template-hash": "6bbc499cc8"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:17Z",
+      "window": "19.438s",
+      "containers": [
+        {
+          "name": "product-purchase-get-price",
+          "usage": {
+            "cpu": "399063226n",
+            "memory": "118160Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-get-price-6bbc499cc8-t5bp4",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-get-price",
+          "pod-template-hash": "6bbc499cc8"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:20Z",
+      "window": "15.41s",
+      "containers": [
+        {
+          "name": "product-purchase-get-price",
+          "usage": {
+            "cpu": "601999415n",
+            "memory": "114556Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-get-price-6bbc499cc8-wc6wv",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-get-price",
+          "pod-template-hash": "6bbc499cc8"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:20Z",
+      "window": "19.43s",
+      "containers": [
+        {
+          "name": "product-purchase-get-price",
+          "usage": {
+            "cpu": "339825167n",
+            "memory": "115916Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-get-price-6bbc499cc8-zst5d",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-get-price",
+          "pod-template-hash": "6bbc499cc8"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:17Z",
+      "window": "17.294s",
+      "containers": [
+        {
+          "name": "product-purchase-get-price",
+          "usage": {
+            "cpu": "425581704n",
+            "memory": "115596Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-publish-5d9566f989-4tzn5",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-publish",
+          "pod-template-hash": "5d9566f989"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:21Z",
+      "window": "19.947s",
+      "containers": [
+        {
+          "name": "product-purchase-publish",
+          "usage": {
+            "cpu": "62922845n",
+            "memory": "80272Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-publish-5d9566f989-9797b",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-publish",
+          "pod-template-hash": "5d9566f989"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:19Z",
+      "window": "15.472s",
+      "containers": [
+        {
+          "name": "product-purchase-publish",
+          "usage": {
+            "cpu": "387063404n",
+            "memory": "78956Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-publish-5d9566f989-dxggm",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-publish",
+          "pod-template-hash": "5d9566f989"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:24Z",
+      "window": "18.661s",
+      "containers": [
+        {
+          "name": "product-purchase-publish",
+          "usage": {
+            "cpu": "61995230n",
+            "memory": "97368Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-publish-5d9566f989-kqxxp",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-publish",
+          "pod-template-hash": "5d9566f989"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:25Z",
+      "window": "13.173s",
+      "containers": [
+        {
+          "name": "product-purchase-publish",
+          "usage": {
+            "cpu": "320781674n",
+            "memory": "78896Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-publish-5d9566f989-zzch9",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:41:37Z",
+        "labels": {
+          "com.openfaas.scale.factor": "10",
+          "com.openfaas.scale.max": "5",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-publish",
+          "pod-template-hash": "5d9566f989"
+        }
+      },
+      "timestamp": "2025-05-25T21:41:19Z",
+      "window": "12.905s",
+      "containers": [
+        {
+          "name": "product-purchase-publish",
+          "usage": {
+            "cpu": "139824641n",
+            "memory": "81844Ki"
+          }
+        }
+      ]
+    }
+  ]
+}

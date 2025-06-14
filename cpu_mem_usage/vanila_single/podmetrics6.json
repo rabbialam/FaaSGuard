@@ -1,0 +1,154 @@
+{
+  "kind": "PodMetricsList",
+  "apiVersion": "metrics.k8s.io/v1beta1",
+  "metadata": {},
+  "items": [
+    {
+      "metadata": {
+        "name": "mysql-69c59fc7b-4zz8r",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T22:03:26Z",
+        "labels": {
+          "app": "mysql",
+          "pod-template-hash": "69c59fc7b"
+        }
+      },
+      "timestamp": "2025-05-25T22:03:04Z",
+      "window": "19.081s",
+      "containers": [
+        {
+          "name": "mysql",
+          "usage": {
+            "cpu": "30827157n",
+            "memory": "488972Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-7d7459cfdd-hq8cn",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T22:03:26Z",
+        "labels": {
+          "com.openfaas.scale.factor": "20",
+          "com.openfaas.scale.max": "1",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase",
+          "pod-template-hash": "7d7459cfdd"
+        }
+      },
+      "timestamp": "2025-05-25T22:03:07Z",
+      "window": "11.504s",
+      "containers": [
+        {
+          "name": "product-purchase",
+          "usage": {
+            "cpu": "165327103n",
+            "memory": "73732Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-authenticate-6c89779fc8-njn7f",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T22:03:26Z",
+        "labels": {
+          "com.openfaas.scale.factor": "20",
+          "com.openfaas.scale.max": "1",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-authenticate",
+          "pod-template-hash": "6c89779fc8"
+        }
+      },
+      "timestamp": "2025-05-25T22:02:59Z",
+      "window": "17.713s",
+      "containers": [
+        {
+          "name": "product-purchase-authenticate",
+          "usage": {
+            "cpu": "1095805n",
+            "memory": "19324Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-authorize-cc-578bf5bfff-z95kl",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T22:03:26Z",
+        "labels": {
+          "com.openfaas.scale.factor": "20",
+          "com.openfaas.scale.max": "1",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-authorize-cc",
+          "pod-template-hash": "578bf5bfff"
+        }
+      },
+      "timestamp": "2025-05-25T22:03:08Z",
+      "window": "12.111s",
+      "containers": [
+        {
+          "name": "product-purchase-authorize-cc",
+          "usage": {
+            "cpu": "141790521n",
+            "memory": "65180Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-get-price-65898644cb-cm6s7",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T22:03:26Z",
+        "labels": {
+          "com.openfaas.scale.factor": "20",
+          "com.openfaas.scale.max": "1",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-get-price",
+          "pod-template-hash": "65898644cb"
+        }
+      },
+      "timestamp": "2025-05-25T22:02:59Z",
+      "window": "12.033s",
+      "containers": [
+        {
+          "name": "product-purchase-get-price",
+          "usage": {
+            "cpu": "144377129n",
+            "memory": "63416Ki"
+          }
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "name": "product-purchase-publish-84fc446587-w5p76",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T22:03:26Z",
+        "labels": {
+          "com.openfaas.scale.factor": "20",
+          "com.openfaas.scale.max": "1",
+          "com.openfaas.scale.min": "1",
+          "faas_function": "product-purchase-publish",
+          "pod-template-hash": "84fc446587"
+        }
+      },
+      "timestamp": "2025-05-25T22:03:00Z",
+      "window": "14.804s",
+      "containers": [
+        {
+          "name": "product-purchase-publish",
+          "usage": {
+            "cpu": "41001215n",
+            "memory": "29232Ki"
+          }
+        }
+      ]
+    }
+  ]
+}

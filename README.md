@@ -1,1 +1,3 @@
-will update the repo soon. currently we are anonymizing the code.
+Initial artifacts for FaaSGuard
+
+packet_capture folder contains two fol

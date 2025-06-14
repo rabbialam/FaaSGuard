@@ -1,0 +1,29 @@
+{
+  "kind": "PodMetricsList",
+  "apiVersion": "metrics.k8s.io/v1beta1",
+  "metadata": {},
+  "items": [
+    {
+      "metadata": {
+        "name": "mysql-69c59fc7b-4zz8r",
+        "namespace": "openfaas-fn",
+        "creationTimestamp": "2025-05-25T21:49:56Z",
+        "labels": {
+          "app": "mysql",
+          "pod-template-hash": "69c59fc7b"
+        }
+      },
+      "timestamp": "2025-05-25T21:49:42Z",
+      "window": "26.685s",
+      "containers": [
+        {
+          "name": "mysql",
+          "usage": {
+            "cpu": "1289413n",
+            "memory": "488644Ki"
+          }
+        }
+      ]
+    }
+  ]
+}

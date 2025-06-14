@@ -1,0 +1,5 @@
+NAME   CPU(cores)   CPU(%)   MEMORY(bytes)   MEMORY(%)   
+kb0    2468m        10%      4945Mi          7%          
+kb1    1862m        7%       2685Mi          4%          
+kb2    2945m        12%      3245Mi          5%          
+kb3    5008m        41%      2707Mi          8%          
