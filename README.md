@@ -6,12 +6,10 @@
 
 ## 📁 Repository Layout
 
-FaaSGuard/
-|__ cpu_mem_usage (Contains cpu and memory usage raw data)
-├── packet_capture/
-│ ├── container_model_inferance/ (This directory contains the code related to model inferance)
-│ └── training-data-collection-image/ (This directory contains the base docker image used for training data collection)
-└── training_model/
-├── auto-encoder-trainer.py (Uses the training data to train the model and store model and related data)
-├── packet_analyzer.py (This script processes the raw data from packet capture)
-└── sql_network_flow_to_json.py
+
+- **`cpu_mem_usage/`**: Contains raw logs of CPU and memory usage during function execution.
+- **`packet_capture/container_model_inference/`**: Contains the packet capture code for model inference inside containers.
+- **`packet_capture/training-data-collection-image/`**: Contains the packet capture code for training phase.
+- **`training_model/auto-encoder-trainer.py`**: Trains an AutoEncoder model for each function.
+- **`training_model/packet_analyzer.py`**: Converts raw network packet logs into JSON files.
+- **`training_model/sql_network_flow_to_json.py`**: Converts structured SQL data into JSON flow records.
